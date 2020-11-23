@@ -1,0 +1,22 @@
+{
+  "name": "MTBeaconPlus",
+  "version": "0.1.0",
+  "summary": "A short description of MTBeaconPlus.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xxdeer/MTBeaconPlus",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xxdeer": "rex.xie@minewtech.com"
+  },
+  "source": {
+    "git": "https://github.com/xxdeer/MTBeaconPlus.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MTBeaconPlus/Classes/**/*"
+}

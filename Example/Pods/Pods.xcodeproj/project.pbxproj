@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		20AB872ABB5E96D3C80C871B54F7EC59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		22D9D7411BC4953F9B45FBFEF06A3E10 /* Pods-MTBeaconPlus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 779109E5E7DAD356A0E1E90B198A101D /* Pods-MTBeaconPlus_Tests-dummy.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F0EC9C7E8899441D7788CEA38B79DB4 /* Pods-MTBeaconPlus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 346157B67D2D29D5F18FFA79755FBDD2 /* Pods-MTBeaconPlus_Example-dummy.m */; };
+		6A453FC5256B50CA00EE8D02 /* MTBeaconPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A453FC4256B50CA00EE8D02 /* MTBeaconPlus.framework */; platformFilter = ios; };
+		6A453FE3256B50D700EE8D02 /* MTSensorData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FC6256B50D600EE8D02 /* MTSensorData.h */; };
+		6A453FE4256B50D700EE8D02 /* MinewPIRSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FC7256B50D600EE8D02 /* MinewPIRSensor.h */; };
+		6A453FE5256B50D700EE8D02 /* MinewTLM.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FC8256B50D600EE8D02 /* MinewTLM.h */; };
+		6A453FE6256B50D700EE8D02 /* MTConnectionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FC9256B50D600EE8D02 /* MTConnectionHandler.h */; };
+		6A453FE7256B50D700EE8D02 /* MinewForceSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCA256B50D700EE8D02 /* MinewForceSensor.h */; };
+		6A453FE8256B50D700EE8D02 /* MTFrameHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCB256B50D700EE8D02 /* MTFrameHandler.h */; };
+		6A453FE9256B50D700EE8D02 /* MinewURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCC256B50D700EE8D02 /* MinewURL.h */; };
+		6A453FEA256B50D800EE8D02 /* MTOTAManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCD256B50D700EE8D02 /* MTOTAManager.h */; };
+		6A453FEB256B50D800EE8D02 /* MinewFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCE256B50D700EE8D02 /* MinewFrame.h */; };
+		6A453FEC256B50D800EE8D02 /* MTPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCF256B50D700EE8D02 /* MTPeripheral.h */; };
+		6A453FED256B50D800EE8D02 /* MinewAccSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD0256B50D700EE8D02 /* MinewAccSensor.h */; };
+		6A453FEE256B50D800EE8D02 /* MinewLineBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD1256B50D700EE8D02 /* MinewLineBeacon.h */; };
+		6A453FEF256B50D800EE8D02 /* MTCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD2256B50D700EE8D02 /* MTCentralManager.h */; };
+		6A453FF0256B50D800EE8D02 /* MinewDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD3256B50D700EE8D02 /* MinewDeviceInfo.h */; };
+		6A453FF1256B50D800EE8D02 /* MinewiBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD4256B50D700EE8D02 /* MinewiBeacon.h */; };
+		6A453FF2256B50D800EE8D02 /* MTSlotHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD5256B50D700EE8D02 /* MTSlotHandler.h */; };
+		6A453FF3256B50D800EE8D02 /* MinewTVOCSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD6256B50D700EE8D02 /* MinewTVOCSensor.h */; };
+		6A453FF4256B50D800EE8D02 /* MTConnectionFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD7256B50D700EE8D02 /* MTConnectionFeature.h */; };
+		6A453FF5256B50D800EE8D02 /* MTSensorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD8256B50D700EE8D02 /* MTSensorHandler.h */; };
+		6A453FF6256B50D800EE8D02 /* MTBeaconPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD9256B50D700EE8D02 /* MTBeaconPlus.h */; };
+		6A453FF7256B50D800EE8D02 /* MTSensorPIRData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDA256B50D700EE8D02 /* MTSensorPIRData.h */; };
+		6A453FF8256B50D800EE8D02 /* MTTriggerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDB256B50D700EE8D02 /* MTTriggerData.h */; };
+		6A453FF9256B50D800EE8D02 /* MTLineBeaconData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDC256B50D700EE8D02 /* MTLineBeaconData.h */; };
+		6A453FFA256B50D800EE8D02 /* MinewHTSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDD256B50D700EE8D02 /* MinewHTSensor.h */; };
+		6A453FFB256B50D800EE8D02 /* MTSensorHTData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDE256B50D700EE8D02 /* MTSensorHTData.h */; };
+		6A453FFC256B50D800EE8D02 /* MinewUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDF256B50D700EE8D02 /* MinewUID.h */; };
+		6A453FFD256B50D800EE8D02 /* MTPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FE0256B50D700EE8D02 /* MTPublicHeader.h */; };
+		6A453FFE256B50D800EE8D02 /* MinewLightSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FE1256B50D700EE8D02 /* MinewLightSensor.h */; };
+		6A453FFF256B50D800EE8D02 /* MinewSingleTempSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FE2256B50D700EE8D02 /* MinewSingleTempSensor.h */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		6FE3EC7C2C5D10FC3F099FEEE07C1478 /* MTBeaconPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5F9AB05D2E06D18B7D3950F658F49E /* MTBeaconPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B0BF3F4130C03815F5F7C860A775FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B88F7CBF11CAF4B710FFF1ED6B106590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		C48DE059396B0FD403AD7BCEE7815DF0 /* Pods-MTBeaconPlus_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8B85BFA8095AE273D370330298ED84 /* Pods-MTBeaconPlus_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		EDDFE215F56FC175F929B5E0B1844501 /* MTBeaconPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB01652EF6011B9BBAE64E27CC151D5F /* MTBeaconPlus-dummy.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F58E8C9310835F2B374515D19A9A657E /* Pods-MTBeaconPlus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4634215094AD0E350DCE61F6C19A83C9 /* Pods-MTBeaconPlus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60732D7642DE9DE203721FC8AB859607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90FB991A50F7507FF2E32DA70D6842AF;
+			remoteInfo = "Pods-MTBeaconPlus_Example";
+		};
+		7A7142901DF0CD985EDE264CE41DA040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		C31C2AFC9EF7ECF885A7D485EC6F35C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C0671EC258FCFA1B9354805FD256263;
+			remoteInfo = MTBeaconPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BA6FC807B4FF5D6C308D56682678CF /* Pods-MTBeaconPlus_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTBeaconPlus_Example-Info.plist"; sourceTree = "<group>"; };
+		044CA28AD56746699E02A5656B615EBB /* MTBeaconPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTBeaconPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEC6E56807A84D582F895ED0C47D878 /* Pods-MTBeaconPlus_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTBeaconPlus_Example.modulemap"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		24BCB4E9F766E9D5C1ED4C361F2B68AD /* Pods-MTBeaconPlus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTBeaconPlus_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		346157B67D2D29D5F18FFA79755FBDD2 /* Pods-MTBeaconPlus_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTBeaconPlus_Example-dummy.m"; sourceTree = "<group>"; };
+		34B6196FF9625CAC96DEDC64ACD74591 /* Pods-MTBeaconPlus_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTBeaconPlus_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4634215094AD0E350DCE61F6C19A83C9 /* Pods-MTBeaconPlus_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTBeaconPlus_Example-umbrella.h"; sourceTree = "<group>"; };
+		4B0FFBCB74F5EE6782F3113D5B461F62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4C8B85BFA8095AE273D370330298ED84 /* Pods-MTBeaconPlus_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTBeaconPlus_Tests-umbrella.h"; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58019B4859AF1158E118457E53D709FA /* MTBeaconPlus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MTBeaconPlus.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0E3CD35A68281B8D65EC0B19F179A1 /* Pods-MTBeaconPlus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTBeaconPlus_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6A453FC4256B50CA00EE8D02 /* MTBeaconPlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTBeaconPlus.framework; sourceTree = "<group>"; };
+		6A453FC6256B50D600EE8D02 /* MTSensorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSensorData.h; path = MTBeaconPlus/Classes/MTSensorData.h; sourceTree = "<group>"; };
+		6A453FC7256B50D600EE8D02 /* MinewPIRSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewPIRSensor.h; path = MTBeaconPlus/Classes/MinewPIRSensor.h; sourceTree = "<group>"; };
+		6A453FC8256B50D600EE8D02 /* MinewTLM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewTLM.h; path = MTBeaconPlus/Classes/MinewTLM.h; sourceTree = "<group>"; };
+		6A453FC9256B50D600EE8D02 /* MTConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTConnectionHandler.h; path = MTBeaconPlus/Classes/MTConnectionHandler.h; sourceTree = "<group>"; };
+		6A453FCA256B50D700EE8D02 /* MinewForceSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewForceSensor.h; path = MTBeaconPlus/Classes/MinewForceSensor.h; sourceTree = "<group>"; };
+		6A453FCB256B50D700EE8D02 /* MTFrameHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTFrameHandler.h; path = MTBeaconPlus/Classes/MTFrameHandler.h; sourceTree = "<group>"; };
+		6A453FCC256B50D700EE8D02 /* MinewURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewURL.h; path = MTBeaconPlus/Classes/MinewURL.h; sourceTree = "<group>"; };
+		6A453FCD256B50D700EE8D02 /* MTOTAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTOTAManager.h; path = MTBeaconPlus/Classes/MTOTAManager.h; sourceTree = "<group>"; };
+		6A453FCE256B50D700EE8D02 /* MinewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewFrame.h; path = MTBeaconPlus/Classes/MinewFrame.h; sourceTree = "<group>"; };
+		6A453FCF256B50D700EE8D02 /* MTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTPeripheral.h; path = MTBeaconPlus/Classes/MTPeripheral.h; sourceTree = "<group>"; };
+		6A453FD0256B50D700EE8D02 /* MinewAccSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewAccSensor.h; path = MTBeaconPlus/Classes/MinewAccSensor.h; sourceTree = "<group>"; };
+		6A453FD1256B50D700EE8D02 /* MinewLineBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewLineBeacon.h; path = MTBeaconPlus/Classes/MinewLineBeacon.h; sourceTree = "<group>"; };
+		6A453FD2256B50D700EE8D02 /* MTCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTCentralManager.h; path = MTBeaconPlus/Classes/MTCentralManager.h; sourceTree = "<group>"; };
+		6A453FD3256B50D700EE8D02 /* MinewDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewDeviceInfo.h; path = MTBeaconPlus/Classes/MinewDeviceInfo.h; sourceTree = "<group>"; };
+		6A453FD4256B50D700EE8D02 /* MinewiBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewiBeacon.h; path = MTBeaconPlus/Classes/MinewiBeacon.h; sourceTree = "<group>"; };
+		6A453FD5256B50D700EE8D02 /* MTSlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSlotHandler.h; path = MTBeaconPlus/Classes/MTSlotHandler.h; sourceTree = "<group>"; };
+		6A453FD6256B50D700EE8D02 /* MinewTVOCSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewTVOCSensor.h; path = MTBeaconPlus/Classes/MinewTVOCSensor.h; sourceTree = "<group>"; };
+		6A453FD7256B50D700EE8D02 /* MTConnectionFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTConnectionFeature.h; path = MTBeaconPlus/Classes/MTConnectionFeature.h; sourceTree = "<group>"; };
+		6A453FD8256B50D700EE8D02 /* MTSensorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSensorHandler.h; path = MTBeaconPlus/Classes/MTSensorHandler.h; sourceTree = "<group>"; };
+		6A453FD9256B50D700EE8D02 /* MTBeaconPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTBeaconPlus.h; path = MTBeaconPlus/Classes/MTBeaconPlus.h; sourceTree = "<group>"; };
+		6A453FDA256B50D700EE8D02 /* MTSensorPIRData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSensorPIRData.h; path = MTBeaconPlus/Classes/MTSensorPIRData.h; sourceTree = "<group>"; };
+		6A453FDB256B50D700EE8D02 /* MTTriggerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTriggerData.h; path = MTBeaconPlus/Classes/MTTriggerData.h; sourceTree = "<group>"; };
+		6A453FDC256B50D700EE8D02 /* MTLineBeaconData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLineBeaconData.h; path = MTBeaconPlus/Classes/MTLineBeaconData.h; sourceTree = "<group>"; };
+		6A453FDD256B50D700EE8D02 /* MinewHTSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewHTSensor.h; path = MTBeaconPlus/Classes/MinewHTSensor.h; sourceTree = "<group>"; };
+		6A453FDE256B50D700EE8D02 /* MTSensorHTData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSensorHTData.h; path = MTBeaconPlus/Classes/MTSensorHTData.h; sourceTree = "<group>"; };
+		6A453FDF256B50D700EE8D02 /* MinewUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewUID.h; path = MTBeaconPlus/Classes/MinewUID.h; sourceTree = "<group>"; };
+		6A453FE0256B50D700EE8D02 /* MTPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTPublicHeader.h; path = MTBeaconPlus/Classes/MTPublicHeader.h; sourceTree = "<group>"; };
+		6A453FE1256B50D700EE8D02 /* MinewLightSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewLightSensor.h; path = MTBeaconPlus/Classes/MinewLightSensor.h; sourceTree = "<group>"; };
+		6A453FE2256B50D700EE8D02 /* MinewSingleTempSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewSingleTempSensor.h; path = MTBeaconPlus/Classes/MinewSingleTempSensor.h; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		77904270FFFB27CDA20F4547BBE56E2F /* MTBeaconPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTBeaconPlus.release.xcconfig; sourceTree = "<group>"; };
+		779109E5E7DAD356A0E1E90B198A101D /* Pods-MTBeaconPlus_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTBeaconPlus_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A5F9AB05D2E06D18B7D3950F658F49E /* MTBeaconPlus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBeaconPlus-umbrella.h"; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7F8507095B9AC98DBF2A2898165741B9 /* Pods-MTBeaconPlus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTBeaconPlus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		81DB51FFE5B085A70FC9ADACE924E948 /* MTBeaconPlus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTBeaconPlus-Info.plist"; sourceTree = "<group>"; };
+		858019B8CFEC94306EE71E29D94FC4E3 /* Pods-MTBeaconPlus_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTBeaconPlus_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		895D96F68FC9C4AD84BFCB714698BEC8 /* Pods-MTBeaconPlus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTBeaconPlus_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		90A2231782700DA79A2736D1D1B287A5 /* Pods-MTBeaconPlus_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTBeaconPlus_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		9594C566C1D9A4908FC4B5728BED8AF5 /* Pods-MTBeaconPlus_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTBeaconPlus_Tests-Info.plist"; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18E33CF4D649A2CBF0841537FBA6EDA /* MTBeaconPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTBeaconPlus.debug.xcconfig; sourceTree = "<group>"; };
+		A827A9BAE56703E23C03407DA300867F /* Pods-MTBeaconPlus_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTBeaconPlus_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B75E2A57C1A43396B2FECE475D31D468 /* Pods-MTBeaconPlus_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTBeaconPlus_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C8F5172748DC8C6E00A46090212CA8DB /* MTBeaconPlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTBeaconPlus.modulemap; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D1090242D5C219E0C4AD6EC642F6822B /* Pods-MTBeaconPlus_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTBeaconPlus_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D79586CAE60E6DBA258CCA8405F3D988 /* Pods_MTBeaconPlus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTBeaconPlus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB01652EF6011B9BBAE64E27CC151D5F /* MTBeaconPlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTBeaconPlus-dummy.m"; sourceTree = "<group>"; };
+		ECE93D8297389C393666016F27F149A5 /* MTBeaconPlus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBeaconPlus-prefix.pch"; sourceTree = "<group>"; };
+		F3AF9A0F5347F81E0E64A956A3A10648 /* Pods_MTBeaconPlus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTBeaconPlus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F722D590F265DE3D053C6D9F271F094E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F7BBF36CBC8BA466614DBED717AA8408 /* Pods-MTBeaconPlus_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTBeaconPlus_Tests.modulemap"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147251D5521A9E68DB7FDD95FA2F9D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88F7CBF11CAF4B710FFF1ED6B106590 /* Foundation.framework in Frameworks */,
+				6A453FC5256B50CA00EE8D02 /* MTBeaconPlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2235547381DE1EDF5819788FECB6F546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AB872ABB5E96D3C80C871B54F7EC59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F2F992D3523304855E41CC02DC4554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0BF3F4130C03815F5F7C860A775FB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05AF0AA2CAD9B6065C62332C0840DE9F /* Pods-MTBeaconPlus_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0EEC6E56807A84D582F895ED0C47D878 /* Pods-MTBeaconPlus_Example.modulemap */,
+				34B6196FF9625CAC96DEDC64ACD74591 /* Pods-MTBeaconPlus_Example-acknowledgements.markdown */,
+				90A2231782700DA79A2736D1D1B287A5 /* Pods-MTBeaconPlus_Example-acknowledgements.plist */,
+				346157B67D2D29D5F18FFA79755FBDD2 /* Pods-MTBeaconPlus_Example-dummy.m */,
+				B75E2A57C1A43396B2FECE475D31D468 /* Pods-MTBeaconPlus_Example-frameworks.sh */,
+				02BA6FC807B4FF5D6C308D56682678CF /* Pods-MTBeaconPlus_Example-Info.plist */,
+				4634215094AD0E350DCE61F6C19A83C9 /* Pods-MTBeaconPlus_Example-umbrella.h */,
+				5F0E3CD35A68281B8D65EC0B19F179A1 /* Pods-MTBeaconPlus_Example.debug.xcconfig */,
+				895D96F68FC9C4AD84BFCB714698BEC8 /* Pods-MTBeaconPlus_Example.release.xcconfig */,
+			);
+			name = "Pods-MTBeaconPlus_Example";
+			path = "Target Support Files/Pods-MTBeaconPlus_Example";
+			sourceTree = "<group>";
+		};
+		423090F4470FD3A2577CE289B65EDCD3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4B0FFBCB74F5EE6782F3113D5B461F62 /* LICENSE */,
+				58019B4859AF1158E118457E53D709FA /* MTBeaconPlus.podspec */,
+				F722D590F265DE3D053C6D9F271F094E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		465B641903A52F7E965020524446B427 /* Pods-MTBeaconPlus_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F7BBF36CBC8BA466614DBED717AA8408 /* Pods-MTBeaconPlus_Tests.modulemap */,
+				858019B8CFEC94306EE71E29D94FC4E3 /* Pods-MTBeaconPlus_Tests-acknowledgements.markdown */,
+				D1090242D5C219E0C4AD6EC642F6822B /* Pods-MTBeaconPlus_Tests-acknowledgements.plist */,
+				779109E5E7DAD356A0E1E90B198A101D /* Pods-MTBeaconPlus_Tests-dummy.m */,
+				A827A9BAE56703E23C03407DA300867F /* Pods-MTBeaconPlus_Tests-frameworks.sh */,
+				9594C566C1D9A4908FC4B5728BED8AF5 /* Pods-MTBeaconPlus_Tests-Info.plist */,
+				4C8B85BFA8095AE273D370330298ED84 /* Pods-MTBeaconPlus_Tests-umbrella.h */,
+				7F8507095B9AC98DBF2A2898165741B9 /* Pods-MTBeaconPlus_Tests.debug.xcconfig */,
+				24BCB4E9F766E9D5C1ED4C361F2B68AD /* Pods-MTBeaconPlus_Tests.release.xcconfig */,
+			);
+			name = "Pods-MTBeaconPlus_Tests";
+			path = "Target Support Files/Pods-MTBeaconPlus_Tests";
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		54A6F96ABD425B04762B15A86863F98C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8F5172748DC8C6E00A46090212CA8DB /* MTBeaconPlus.modulemap */,
+				EB01652EF6011B9BBAE64E27CC151D5F /* MTBeaconPlus-dummy.m */,
+				81DB51FFE5B085A70FC9ADACE924E948 /* MTBeaconPlus-Info.plist */,
+				ECE93D8297389C393666016F27F149A5 /* MTBeaconPlus-prefix.pch */,
+				7A5F9AB05D2E06D18B7D3950F658F49E /* MTBeaconPlus-umbrella.h */,
+				A18E33CF4D649A2CBF0841537FBA6EDA /* MTBeaconPlus.debug.xcconfig */,
+				77904270FFFB27CDA20F4547BBE56E2F /* MTBeaconPlus.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MTBeaconPlus";
+			sourceTree = "<group>";
+		};
+		5EA9541700EF4974A895A58B496F9C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				044CA28AD56746699E02A5656B615EBB /* MTBeaconPlus.framework */,
+				F3AF9A0F5347F81E0E64A956A3A10648 /* Pods_MTBeaconPlus_Example.framework */,
+				D79586CAE60E6DBA258CCA8405F3D988 /* Pods_MTBeaconPlus_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A453FC3256B50CA00EE8D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A453FC4256B50CA00EE8D02 /* MTBeaconPlus.framework */,
+			);
+			name = Frameworks;
+			path = MTBeaconPlus/Frameworks;
+			sourceTree = "<group>";
+		};
+		8C9C036384539FED569340505AE506DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AF0AA2CAD9B6065C62332C0840DE9F /* Pods-MTBeaconPlus_Example */,
+				465B641903A52F7E965020524446B427 /* Pods-MTBeaconPlus_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9684ECC2A2DA83CD572E0F0176A788E1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A7590C0B5F8CAB0551457CE33D12F8 /* MTBeaconPlus */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		97A7590C0B5F8CAB0551457CE33D12F8 /* MTBeaconPlus */ = {
+			isa = PBXGroup;
+			children = (
+				6A453FD0256B50D700EE8D02 /* MinewAccSensor.h */,
+				6A453FD3256B50D700EE8D02 /* MinewDeviceInfo.h */,
+				6A453FCA256B50D700EE8D02 /* MinewForceSensor.h */,
+				6A453FCE256B50D700EE8D02 /* MinewFrame.h */,
+				6A453FDD256B50D700EE8D02 /* MinewHTSensor.h */,
+				6A453FD4256B50D700EE8D02 /* MinewiBeacon.h */,
+				6A453FE1256B50D700EE8D02 /* MinewLightSensor.h */,
+				6A453FD1256B50D700EE8D02 /* MinewLineBeacon.h */,
+				6A453FC7256B50D600EE8D02 /* MinewPIRSensor.h */,
+				6A453FE2256B50D700EE8D02 /* MinewSingleTempSensor.h */,
+				6A453FC8256B50D600EE8D02 /* MinewTLM.h */,
+				6A453FD6256B50D700EE8D02 /* MinewTVOCSensor.h */,
+				6A453FDF256B50D700EE8D02 /* MinewUID.h */,
+				6A453FCC256B50D700EE8D02 /* MinewURL.h */,
+				6A453FD9256B50D700EE8D02 /* MTBeaconPlus.h */,
+				6A453FD2256B50D700EE8D02 /* MTCentralManager.h */,
+				6A453FD7256B50D700EE8D02 /* MTConnectionFeature.h */,
+				6A453FC9256B50D600EE8D02 /* MTConnectionHandler.h */,
+				6A453FCB256B50D700EE8D02 /* MTFrameHandler.h */,
+				6A453FDC256B50D700EE8D02 /* MTLineBeaconData.h */,
+				6A453FCD256B50D700EE8D02 /* MTOTAManager.h */,
+				6A453FCF256B50D700EE8D02 /* MTPeripheral.h */,
+				6A453FE0256B50D700EE8D02 /* MTPublicHeader.h */,
+				6A453FC6256B50D600EE8D02 /* MTSensorData.h */,
+				6A453FD8256B50D700EE8D02 /* MTSensorHandler.h */,
+				6A453FDE256B50D700EE8D02 /* MTSensorHTData.h */,
+				6A453FDA256B50D700EE8D02 /* MTSensorPIRData.h */,
+				6A453FD5256B50D700EE8D02 /* MTSlotHandler.h */,
+				6A453FDB256B50D700EE8D02 /* MTTriggerData.h */,
+				6A453FC3256B50CA00EE8D02 /* Frameworks */,
+				423090F4470FD3A2577CE289B65EDCD3 /* Pod */,
+				54A6F96ABD425B04762B15A86863F98C /* Support Files */,
+			);
+			name = MTBeaconPlus;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9684ECC2A2DA83CD572E0F0176A788E1 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				5EA9541700EF4974A895A58B496F9C7E /* Products */,
+				8C9C036384539FED569340505AE506DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08BC5E38603E00297FC0FF9798BD8509 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58E8C9310835F2B374515D19A9A657E /* Pods-MTBeaconPlus_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDAC1FDD7B7344CC9F5AA0496B433C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48DE059396B0FD403AD7BCEE7815DF0 /* Pods-MTBeaconPlus_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E68D766BF455F5D54EF51741984C96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A453FF6256B50D800EE8D02 /* MTBeaconPlus.h in Headers */,
+				6A453FF7256B50D800EE8D02 /* MTSensorPIRData.h in Headers */,
+				6A453FF5256B50D800EE8D02 /* MTSensorHandler.h in Headers */,
+				6A453FF0256B50D800EE8D02 /* MinewDeviceInfo.h in Headers */,
+				6FE3EC7C2C5D10FC3F099FEEE07C1478 /* MTBeaconPlus-umbrella.h in Headers */,
+				6A453FE5256B50D700EE8D02 /* MinewTLM.h in Headers */,
+				6A453FF8256B50D800EE8D02 /* MTTriggerData.h in Headers */,
+				6A453FE3256B50D700EE8D02 /* MTSensorData.h in Headers */,
+				6A453FF4256B50D800EE8D02 /* MTConnectionFeature.h in Headers */,
+				6A453FEC256B50D800EE8D02 /* MTPeripheral.h in Headers */,
+				6A453FF3256B50D800EE8D02 /* MinewTVOCSensor.h in Headers */,
+				6A453FF1256B50D800EE8D02 /* MinewiBeacon.h in Headers */,
+				6A453FE9256B50D700EE8D02 /* MinewURL.h in Headers */,
+				6A453FE8256B50D700EE8D02 /* MTFrameHandler.h in Headers */,
+				6A453FF2256B50D800EE8D02 /* MTSlotHandler.h in Headers */,
+				6A453FFA256B50D800EE8D02 /* MinewHTSensor.h in Headers */,
+				6A453FE6256B50D700EE8D02 /* MTConnectionHandler.h in Headers */,
+				6A453FFB256B50D800EE8D02 /* MTSensorHTData.h in Headers */,
+				6A453FEF256B50D800EE8D02 /* MTCentralManager.h in Headers */,
+				6A453FE4256B50D700EE8D02 /* MinewPIRSensor.h in Headers */,
+				6A453FEE256B50D800EE8D02 /* MinewLineBeacon.h in Headers */,
+				6A453FF9256B50D800EE8D02 /* MTLineBeaconData.h in Headers */,
+				6A453FEB256B50D800EE8D02 /* MinewFrame.h in Headers */,
+				6A453FFF256B50D800EE8D02 /* MinewSingleTempSensor.h in Headers */,
+				6A453FFD256B50D800EE8D02 /* MTPublicHeader.h in Headers */,
+				6A453FFC256B50D800EE8D02 /* MinewUID.h in Headers */,
+				6A453FFE256B50D800EE8D02 /* MinewLightSensor.h in Headers */,
+				6A453FE7256B50D700EE8D02 /* MinewForceSensor.h in Headers */,
+				6A453FEA256B50D800EE8D02 /* MTOTAManager.h in Headers */,
+				6A453FED256B50D800EE8D02 /* MinewAccSensor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C0671EC258FCFA1B9354805FD256263 /* MTBeaconPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDB100350E233A24EA0EAF2DA6103E9 /* Build configuration list for PBXNativeTarget "MTBeaconPlus" */;
+			buildPhases = (
+				67E68D766BF455F5D54EF51741984C96 /* Headers */,
+				D00E703609C354A054C6744E51009233 /* Sources */,
+				147251D5521A9E68DB7FDD95FA2F9D68 /* Frameworks */,
+				FE9F77EC5A3792AA4F611C8CB6D9B035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTBeaconPlus;
+			productName = MTBeaconPlus;
+			productReference = 044CA28AD56746699E02A5656B615EBB /* MTBeaconPlus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		319611880E1520E0E68EBD6A5ED5B282 /* Pods-MTBeaconPlus_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F20BA3F85AD2DC06933F787207CB197 /* Build configuration list for PBXNativeTarget "Pods-MTBeaconPlus_Tests" */;
+			buildPhases = (
+				3DDAC1FDD7B7344CC9F5AA0496B433C3 /* Headers */,
+				778BED0AC4ED44D48910C23DD35829F5 /* Sources */,
+				2235547381DE1EDF5819788FECB6F546 /* Frameworks */,
+				1049E2E94EC83451E384EDBCA2FE74D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DB179B656ACE2DE0D189515A50EF22 /* PBXTargetDependency */,
+				E25EE79C723D32DA87129497F03F79BF /* PBXTargetDependency */,
+			);
+			name = "Pods-MTBeaconPlus_Tests";
+			productName = "Pods-MTBeaconPlus_Tests";
+			productReference = D79586CAE60E6DBA258CCA8405F3D988 /* Pods_MTBeaconPlus_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90FB991A50F7507FF2E32DA70D6842AF /* Pods-MTBeaconPlus_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D694C41140800B3B72265A6CE488A915 /* Build configuration list for PBXNativeTarget "Pods-MTBeaconPlus_Example" */;
+			buildPhases = (
+				08BC5E38603E00297FC0FF9798BD8509 /* Headers */,
+				1A5AC1F498585F63926BC9C353D6E666 /* Sources */,
+				88F2F992D3523304855E41CC02DC4554 /* Frameworks */,
+				8C40302E3A9A3C2737AFCADD866A5093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E76593916C6D0C75F564544CAFD83C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-MTBeaconPlus_Example";
+			productName = "Pods-MTBeaconPlus_Example";
+			productReference = F3AF9A0F5347F81E0E64A956A3A10648 /* Pods_MTBeaconPlus_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5EA9541700EF4974A895A58B496F9C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				2C0671EC258FCFA1B9354805FD256263 /* MTBeaconPlus */,
+				90FB991A50F7507FF2E32DA70D6842AF /* Pods-MTBeaconPlus_Example */,
+				319611880E1520E0E68EBD6A5ED5B282 /* Pods-MTBeaconPlus_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1049E2E94EC83451E384EDBCA2FE74D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C40302E3A9A3C2737AFCADD866A5093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9F77EC5A3792AA4F611C8CB6D9B035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5AC1F498585F63926BC9C353D6E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0EC9C7E8899441D7788CEA38B79DB4 /* Pods-MTBeaconPlus_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778BED0AC4ED44D48910C23DD35829F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D9D7411BC4953F9B45FBFEF06A3E10 /* Pods-MTBeaconPlus_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E703609C354A054C6744E51009233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDFE215F56FC175F929B5E0B1844501 /* MTBeaconPlus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E76593916C6D0C75F564544CAFD83C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTBeaconPlus;
+			target = 2C0671EC258FCFA1B9354805FD256263 /* MTBeaconPlus */;
+			targetProxy = C31C2AFC9EF7ECF885A7D485EC6F35C2 /* PBXContainerItemProxy */;
+		};
+		82DB179B656ACE2DE0D189515A50EF22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 7A7142901DF0CD985EDE264CE41DA040 /* PBXContainerItemProxy */;
+		};
+		E25EE79C723D32DA87129497F03F79BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MTBeaconPlus_Example";
+			target = 90FB991A50F7507FF2E32DA70D6842AF /* Pods-MTBeaconPlus_Example */;
+			targetProxy = 60732D7642DE9DE203721FC8AB859607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08A6AD1D5A7A6BD6B1A6F8DF19B17A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0E3CD35A68281B8D65EC0B19F179A1 /* Pods-MTBeaconPlus_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTBeaconPlus_Example/Pods-MTBeaconPlus_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTBeaconPlus_Example/Pods-MTBeaconPlus_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10EC23C4BB7549E8B7873C164BC13B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BCB4E9F766E9D5C1ED4C361F2B68AD /* Pods-MTBeaconPlus_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTBeaconPlus_Tests/Pods-MTBeaconPlus_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTBeaconPlus_Tests/Pods-MTBeaconPlus_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		86F1B44917393C3F1EFD511B52C2E1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895D96F68FC9C4AD84BFCB714698BEC8 /* Pods-MTBeaconPlus_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTBeaconPlus_Example/Pods-MTBeaconPlus_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTBeaconPlus_Example/Pods-MTBeaconPlus_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC58DCED848FEB462F5003B1F891CA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77904270FFFB27CDA20F4547BBE56E2F /* MTBeaconPlus.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTBeaconPlus/MTBeaconPlus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTBeaconPlus/MTBeaconPlus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MTBeaconPlus/MTBeaconPlus.modulemap";
+				PRODUCT_MODULE_NAME = MTBeaconPlus;
+				PRODUCT_NAME = MTBeaconPlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8FCE2E131D7397128B0B393A328D174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8507095B9AC98DBF2A2898165741B9 /* Pods-MTBeaconPlus_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTBeaconPlus_Tests/Pods-MTBeaconPlus_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTBeaconPlus_Tests/Pods-MTBeaconPlus_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB541402D2AF07406AF7D4B884AD3C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18E33CF4D649A2CBF0841537FBA6EDA /* MTBeaconPlus.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTBeaconPlus/MTBeaconPlus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTBeaconPlus/MTBeaconPlus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MTBeaconPlus/MTBeaconPlus.modulemap";
+				PRODUCT_MODULE_NAME = MTBeaconPlus;
+				PRODUCT_NAME = MTBeaconPlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BDB100350E233A24EA0EAF2DA6103E9 /* Build configuration list for PBXNativeTarget "MTBeaconPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB541402D2AF07406AF7D4B884AD3C30 /* Debug */,
+				EC58DCED848FEB462F5003B1F891CA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F20BA3F85AD2DC06933F787207CB197 /* Build configuration list for PBXNativeTarget "Pods-MTBeaconPlus_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FCE2E131D7397128B0B393A328D174 /* Debug */,
+				10EC23C4BB7549E8B7873C164BC13B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D694C41140800B3B72265A6CE488A915 /* Build configuration list for PBXNativeTarget "Pods-MTBeaconPlus_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A6AD1D5A7A6BD6B1A6F8DF19B17A24 /* Debug */,
+				86F1B44917393C3F1EFD511B52C2E1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

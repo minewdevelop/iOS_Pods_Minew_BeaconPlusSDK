@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTBeaconPlus'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of MTBeaconPlus.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,13 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xxdeer/MTBeaconPlus'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/minewdevelop/iOS_Pods_Minew_BeaconPlusSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xxdeer' => 'rex.xie@minewtech.com' }
-  s.source           = { :git => 'https://github.com/xxdeer/MTBeaconPlus.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.author           = { 'rex.xie' => 'rex.xie@minewtech.com' }
+  s.source           = { :git => 'https://github.com/minewdevelop/iOS_Pods_Minew_BeaconPlusSDK.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '10.0'
   s.source_files = 'MTBeaconPlus/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MTBeaconPlus' => ['MTBeaconPlus/Assets/*.png']
-  # }
+  s.vendored_frameworks = 'MTBeaconPlus/Frameworks/*.{framework}'
+  s.dependency 'ZIPFoundation', 'iOSDFULibrary'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MTBeaconPlus (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MTBeaconPlus (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MTBeaconPlus:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MTBeaconPlus: 702a262fb3ee2021b79deda0be6dbd993cf71e32
+
+PODFILE CHECKSUM: 5bcd7edb1949e01bda2f50ca802040f3128c43bb
+
+COCOAPODS: 1.10.0
