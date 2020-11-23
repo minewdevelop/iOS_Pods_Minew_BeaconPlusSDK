@@ -28,6 +28,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.source_files = 'MTBeaconPlus/Classes/**/*'
   s.vendored_frameworks = 'MTBeaconPlus/Frameworks/*.{framework}'
-  s.dependency 'ZIPFoundation', 'iOSDFULibrary'
+#  s.dependency = 'iOSDFULibrary'
+  s.static_framework = true
+
+  s.dependency 'iOSDFULibrary'
+  s.dependency 'ZIPFoundation'
 
 end

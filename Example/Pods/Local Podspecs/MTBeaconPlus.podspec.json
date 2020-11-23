@@ -1,22 +1,23 @@
 {
   "name": "MTBeaconPlus",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of MTBeaconPlus.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xxdeer/MTBeaconPlus",
+  "homepage": "https://github.com/minewdevelop/iOS_Pods_Minew_BeaconPlusSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "xxdeer": "rex.xie@minewtech.com"
+    "rex.xie": "rex.xie@minewtech.com"
   },
   "source": {
-    "git": "https://github.com/xxdeer/MTBeaconPlus.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/minewdevelop/iOS_Pods_Minew_BeaconPlusSDK.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "MTBeaconPlus/Classes/**/*"
+  "source_files": "MTBeaconPlus/Classes/**/*",
+  "vendored_frameworks": "MTBeaconPlus/Frameworks/*.{framework}"
 }
