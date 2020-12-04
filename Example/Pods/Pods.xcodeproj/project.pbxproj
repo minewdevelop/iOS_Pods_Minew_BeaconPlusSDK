@@ -18,35 +18,35 @@
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5F0EC9C7E8899441D7788CEA38B79DB4 /* Pods-MTBeaconPlus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 346157B67D2D29D5F18FFA79755FBDD2 /* Pods-MTBeaconPlus_Example-dummy.m */; };
 		6A453FC5256B50CA00EE8D02 /* MTBeaconPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A453FC4256B50CA00EE8D02 /* MTBeaconPlus.framework */; platformFilter = ios; };
-		6A453FE3256B50D700EE8D02 /* MTSensorData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FC6256B50D600EE8D02 /* MTSensorData.h */; };
-		6A453FE4256B50D700EE8D02 /* MinewPIRSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FC7256B50D600EE8D02 /* MinewPIRSensor.h */; };
-		6A453FE5256B50D700EE8D02 /* MinewTLM.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FC8256B50D600EE8D02 /* MinewTLM.h */; };
-		6A453FE6256B50D700EE8D02 /* MTConnectionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FC9256B50D600EE8D02 /* MTConnectionHandler.h */; };
-		6A453FE7256B50D700EE8D02 /* MinewForceSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCA256B50D700EE8D02 /* MinewForceSensor.h */; };
-		6A453FE8256B50D700EE8D02 /* MTFrameHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCB256B50D700EE8D02 /* MTFrameHandler.h */; };
-		6A453FE9256B50D700EE8D02 /* MinewURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCC256B50D700EE8D02 /* MinewURL.h */; };
-		6A453FEA256B50D800EE8D02 /* MTOTAManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCD256B50D700EE8D02 /* MTOTAManager.h */; };
-		6A453FEB256B50D800EE8D02 /* MinewFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCE256B50D700EE8D02 /* MinewFrame.h */; };
-		6A453FEC256B50D800EE8D02 /* MTPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FCF256B50D700EE8D02 /* MTPeripheral.h */; };
-		6A453FED256B50D800EE8D02 /* MinewAccSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD0256B50D700EE8D02 /* MinewAccSensor.h */; };
-		6A453FEE256B50D800EE8D02 /* MinewLineBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD1256B50D700EE8D02 /* MinewLineBeacon.h */; };
-		6A453FEF256B50D800EE8D02 /* MTCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD2256B50D700EE8D02 /* MTCentralManager.h */; };
-		6A453FF0256B50D800EE8D02 /* MinewDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD3256B50D700EE8D02 /* MinewDeviceInfo.h */; };
-		6A453FF1256B50D800EE8D02 /* MinewiBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD4256B50D700EE8D02 /* MinewiBeacon.h */; };
-		6A453FF2256B50D800EE8D02 /* MTSlotHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD5256B50D700EE8D02 /* MTSlotHandler.h */; };
-		6A453FF3256B50D800EE8D02 /* MinewTVOCSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD6256B50D700EE8D02 /* MinewTVOCSensor.h */; };
-		6A453FF4256B50D800EE8D02 /* MTConnectionFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD7256B50D700EE8D02 /* MTConnectionFeature.h */; };
-		6A453FF5256B50D800EE8D02 /* MTSensorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD8256B50D700EE8D02 /* MTSensorHandler.h */; };
-		6A453FF6256B50D800EE8D02 /* MTBeaconPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FD9256B50D700EE8D02 /* MTBeaconPlus.h */; };
-		6A453FF7256B50D800EE8D02 /* MTSensorPIRData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDA256B50D700EE8D02 /* MTSensorPIRData.h */; };
-		6A453FF8256B50D800EE8D02 /* MTTriggerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDB256B50D700EE8D02 /* MTTriggerData.h */; };
-		6A453FF9256B50D800EE8D02 /* MTLineBeaconData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDC256B50D700EE8D02 /* MTLineBeaconData.h */; };
-		6A453FFA256B50D800EE8D02 /* MinewHTSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDD256B50D700EE8D02 /* MinewHTSensor.h */; };
-		6A453FFB256B50D800EE8D02 /* MTSensorHTData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDE256B50D700EE8D02 /* MTSensorHTData.h */; };
-		6A453FFC256B50D800EE8D02 /* MinewUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FDF256B50D700EE8D02 /* MinewUID.h */; };
-		6A453FFD256B50D800EE8D02 /* MTPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FE0256B50D700EE8D02 /* MTPublicHeader.h */; };
-		6A453FFE256B50D800EE8D02 /* MinewLightSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FE1256B50D700EE8D02 /* MinewLightSensor.h */; };
-		6A453FFF256B50D800EE8D02 /* MinewSingleTempSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A453FE2256B50D700EE8D02 /* MinewSingleTempSensor.h */; };
+		6AA619BD257A260200D94633 /* MTConnectionFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA6199C257A260100D94633 /* MTConnectionFeature.h */; };
+		6AA619BE257A260200D94633 /* MTOTAManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA6199D257A260100D94633 /* MTOTAManager.h */; };
+		6AA619BF257A260200D94633 /* MTCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA6199E257A260100D94633 /* MTCentralManager.h */; };
+		6AA619C0257A260200D94633 /* MTPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA6199F257A260100D94633 /* MTPeripheral.h */; };
+		6AA619C1257A260200D94633 /* MTPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619A0257A260100D94633 /* MTPublicHeader.h */; };
+		6AA619C2257A260200D94633 /* MTTriggerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619A2257A260100D94633 /* MTTriggerData.h */; };
+		6AA619C3257A260200D94633 /* MTLineBeaconData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619A3257A260100D94633 /* MTLineBeaconData.h */; };
+		6AA619C4257A260200D94633 /* MTSensorHTData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619A4257A260100D94633 /* MTSensorHTData.h */; };
+		6AA619C5257A260200D94633 /* MTSensorData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619A5257A260100D94633 /* MTSensorData.h */; };
+		6AA619C6257A260200D94633 /* MTSensorPIRData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619A6257A260100D94633 /* MTSensorPIRData.h */; };
+		6AA619C7257A260200D94633 /* MinewFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619A8257A260100D94633 /* MinewFrame.h */; };
+		6AA619C8257A260200D94633 /* MinewPIRSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619AA257A260100D94633 /* MinewPIRSensor.h */; };
+		6AA619C9257A260200D94633 /* MinewAccSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619AB257A260100D94633 /* MinewAccSensor.h */; };
+		6AA619CA257A260200D94633 /* MinewTVOCSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619AC257A260100D94633 /* MinewTVOCSensor.h */; };
+		6AA619CB257A260200D94633 /* MinewLightSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619AD257A260100D94633 /* MinewLightSensor.h */; };
+		6AA619CC257A260200D94633 /* MinewHTSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619AE257A260100D94633 /* MinewHTSensor.h */; };
+		6AA619CD257A260200D94633 /* MinewSingleTempSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619AF257A260100D94633 /* MinewSingleTempSensor.h */; };
+		6AA619CE257A260200D94633 /* MinewForceSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619B0257A260100D94633 /* MinewForceSensor.h */; };
+		6AA619CF257A260200D94633 /* MinewUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619B1257A260100D94633 /* MinewUID.h */; };
+		6AA619D0257A260200D94633 /* MinewDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619B2257A260100D94633 /* MinewDeviceInfo.h */; };
+		6AA619D1257A260200D94633 /* MinewURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619B3257A260100D94633 /* MinewURL.h */; };
+		6AA619D2257A260200D94633 /* MinewTLM.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619B4257A260100D94633 /* MinewTLM.h */; };
+		6AA619D3257A260200D94633 /* MinewLineBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619B5257A260100D94633 /* MinewLineBeacon.h */; };
+		6AA619D4257A260200D94633 /* MinewiBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619B6257A260100D94633 /* MinewiBeacon.h */; };
+		6AA619D5257A260200D94633 /* MTFrameHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619B8257A260100D94633 /* MTFrameHandler.h */; };
+		6AA619D6257A260200D94633 /* MTConnectionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619B9257A260200D94633 /* MTConnectionHandler.h */; };
+		6AA619D7257A260200D94633 /* MTSensorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619BA257A260200D94633 /* MTSensorHandler.h */; };
+		6AA619D8257A260200D94633 /* MTSlotHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619BB257A260200D94633 /* MTSlotHandler.h */; };
+		6AA619D9257A260200D94633 /* MTBeaconPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA619BC257A260200D94633 /* MTBeaconPlus.h */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		6FE3EC7C2C5D10FC3F099FEEE07C1478 /* MTBeaconPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5F9AB05D2E06D18B7D3950F658F49E /* MTBeaconPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B0BF3F4130C03815F5F7C860A775FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
@@ -119,35 +119,35 @@
 		5F0E3CD35A68281B8D65EC0B19F179A1 /* Pods-MTBeaconPlus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTBeaconPlus_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6A453FC4256B50CA00EE8D02 /* MTBeaconPlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTBeaconPlus.framework; sourceTree = "<group>"; };
-		6A453FC6256B50D600EE8D02 /* MTSensorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSensorData.h; path = MTBeaconPlus/Classes/MTSensorData.h; sourceTree = "<group>"; };
-		6A453FC7256B50D600EE8D02 /* MinewPIRSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewPIRSensor.h; path = MTBeaconPlus/Classes/MinewPIRSensor.h; sourceTree = "<group>"; };
-		6A453FC8256B50D600EE8D02 /* MinewTLM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewTLM.h; path = MTBeaconPlus/Classes/MinewTLM.h; sourceTree = "<group>"; };
-		6A453FC9256B50D600EE8D02 /* MTConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTConnectionHandler.h; path = MTBeaconPlus/Classes/MTConnectionHandler.h; sourceTree = "<group>"; };
-		6A453FCA256B50D700EE8D02 /* MinewForceSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewForceSensor.h; path = MTBeaconPlus/Classes/MinewForceSensor.h; sourceTree = "<group>"; };
-		6A453FCB256B50D700EE8D02 /* MTFrameHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTFrameHandler.h; path = MTBeaconPlus/Classes/MTFrameHandler.h; sourceTree = "<group>"; };
-		6A453FCC256B50D700EE8D02 /* MinewURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewURL.h; path = MTBeaconPlus/Classes/MinewURL.h; sourceTree = "<group>"; };
-		6A453FCD256B50D700EE8D02 /* MTOTAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTOTAManager.h; path = MTBeaconPlus/Classes/MTOTAManager.h; sourceTree = "<group>"; };
-		6A453FCE256B50D700EE8D02 /* MinewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewFrame.h; path = MTBeaconPlus/Classes/MinewFrame.h; sourceTree = "<group>"; };
-		6A453FCF256B50D700EE8D02 /* MTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTPeripheral.h; path = MTBeaconPlus/Classes/MTPeripheral.h; sourceTree = "<group>"; };
-		6A453FD0256B50D700EE8D02 /* MinewAccSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewAccSensor.h; path = MTBeaconPlus/Classes/MinewAccSensor.h; sourceTree = "<group>"; };
-		6A453FD1256B50D700EE8D02 /* MinewLineBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewLineBeacon.h; path = MTBeaconPlus/Classes/MinewLineBeacon.h; sourceTree = "<group>"; };
-		6A453FD2256B50D700EE8D02 /* MTCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTCentralManager.h; path = MTBeaconPlus/Classes/MTCentralManager.h; sourceTree = "<group>"; };
-		6A453FD3256B50D700EE8D02 /* MinewDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewDeviceInfo.h; path = MTBeaconPlus/Classes/MinewDeviceInfo.h; sourceTree = "<group>"; };
-		6A453FD4256B50D700EE8D02 /* MinewiBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewiBeacon.h; path = MTBeaconPlus/Classes/MinewiBeacon.h; sourceTree = "<group>"; };
-		6A453FD5256B50D700EE8D02 /* MTSlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSlotHandler.h; path = MTBeaconPlus/Classes/MTSlotHandler.h; sourceTree = "<group>"; };
-		6A453FD6256B50D700EE8D02 /* MinewTVOCSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewTVOCSensor.h; path = MTBeaconPlus/Classes/MinewTVOCSensor.h; sourceTree = "<group>"; };
-		6A453FD7256B50D700EE8D02 /* MTConnectionFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTConnectionFeature.h; path = MTBeaconPlus/Classes/MTConnectionFeature.h; sourceTree = "<group>"; };
-		6A453FD8256B50D700EE8D02 /* MTSensorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSensorHandler.h; path = MTBeaconPlus/Classes/MTSensorHandler.h; sourceTree = "<group>"; };
-		6A453FD9256B50D700EE8D02 /* MTBeaconPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTBeaconPlus.h; path = MTBeaconPlus/Classes/MTBeaconPlus.h; sourceTree = "<group>"; };
-		6A453FDA256B50D700EE8D02 /* MTSensorPIRData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSensorPIRData.h; path = MTBeaconPlus/Classes/MTSensorPIRData.h; sourceTree = "<group>"; };
-		6A453FDB256B50D700EE8D02 /* MTTriggerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTriggerData.h; path = MTBeaconPlus/Classes/MTTriggerData.h; sourceTree = "<group>"; };
-		6A453FDC256B50D700EE8D02 /* MTLineBeaconData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLineBeaconData.h; path = MTBeaconPlus/Classes/MTLineBeaconData.h; sourceTree = "<group>"; };
-		6A453FDD256B50D700EE8D02 /* MinewHTSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewHTSensor.h; path = MTBeaconPlus/Classes/MinewHTSensor.h; sourceTree = "<group>"; };
-		6A453FDE256B50D700EE8D02 /* MTSensorHTData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSensorHTData.h; path = MTBeaconPlus/Classes/MTSensorHTData.h; sourceTree = "<group>"; };
-		6A453FDF256B50D700EE8D02 /* MinewUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewUID.h; path = MTBeaconPlus/Classes/MinewUID.h; sourceTree = "<group>"; };
-		6A453FE0256B50D700EE8D02 /* MTPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTPublicHeader.h; path = MTBeaconPlus/Classes/MTPublicHeader.h; sourceTree = "<group>"; };
-		6A453FE1256B50D700EE8D02 /* MinewLightSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewLightSensor.h; path = MTBeaconPlus/Classes/MinewLightSensor.h; sourceTree = "<group>"; };
-		6A453FE2256B50D700EE8D02 /* MinewSingleTempSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinewSingleTempSensor.h; path = MTBeaconPlus/Classes/MinewSingleTempSensor.h; sourceTree = "<group>"; };
+		6AA6199C257A260100D94633 /* MTConnectionFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTConnectionFeature.h; sourceTree = "<group>"; };
+		6AA6199D257A260100D94633 /* MTOTAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTOTAManager.h; sourceTree = "<group>"; };
+		6AA6199E257A260100D94633 /* MTCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCentralManager.h; sourceTree = "<group>"; };
+		6AA6199F257A260100D94633 /* MTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPeripheral.h; sourceTree = "<group>"; };
+		6AA619A0257A260100D94633 /* MTPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPublicHeader.h; sourceTree = "<group>"; };
+		6AA619A2257A260100D94633 /* MTTriggerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTriggerData.h; sourceTree = "<group>"; };
+		6AA619A3257A260100D94633 /* MTLineBeaconData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLineBeaconData.h; sourceTree = "<group>"; };
+		6AA619A4257A260100D94633 /* MTSensorHTData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSensorHTData.h; sourceTree = "<group>"; };
+		6AA619A5257A260100D94633 /* MTSensorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSensorData.h; sourceTree = "<group>"; };
+		6AA619A6257A260100D94633 /* MTSensorPIRData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSensorPIRData.h; sourceTree = "<group>"; };
+		6AA619A8257A260100D94633 /* MinewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewFrame.h; sourceTree = "<group>"; };
+		6AA619AA257A260100D94633 /* MinewPIRSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewPIRSensor.h; sourceTree = "<group>"; };
+		6AA619AB257A260100D94633 /* MinewAccSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewAccSensor.h; sourceTree = "<group>"; };
+		6AA619AC257A260100D94633 /* MinewTVOCSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewTVOCSensor.h; sourceTree = "<group>"; };
+		6AA619AD257A260100D94633 /* MinewLightSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewLightSensor.h; sourceTree = "<group>"; };
+		6AA619AE257A260100D94633 /* MinewHTSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewHTSensor.h; sourceTree = "<group>"; };
+		6AA619AF257A260100D94633 /* MinewSingleTempSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewSingleTempSensor.h; sourceTree = "<group>"; };
+		6AA619B0257A260100D94633 /* MinewForceSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewForceSensor.h; sourceTree = "<group>"; };
+		6AA619B1257A260100D94633 /* MinewUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewUID.h; sourceTree = "<group>"; };
+		6AA619B2257A260100D94633 /* MinewDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewDeviceInfo.h; sourceTree = "<group>"; };
+		6AA619B3257A260100D94633 /* MinewURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewURL.h; sourceTree = "<group>"; };
+		6AA619B4257A260100D94633 /* MinewTLM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewTLM.h; sourceTree = "<group>"; };
+		6AA619B5257A260100D94633 /* MinewLineBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewLineBeacon.h; sourceTree = "<group>"; };
+		6AA619B6257A260100D94633 /* MinewiBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinewiBeacon.h; sourceTree = "<group>"; };
+		6AA619B8257A260100D94633 /* MTFrameHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFrameHandler.h; sourceTree = "<group>"; };
+		6AA619B9257A260200D94633 /* MTConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTConnectionHandler.h; sourceTree = "<group>"; };
+		6AA619BA257A260200D94633 /* MTSensorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSensorHandler.h; sourceTree = "<group>"; };
+		6AA619BB257A260200D94633 /* MTSlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSlotHandler.h; sourceTree = "<group>"; };
+		6AA619BC257A260200D94633 /* MTBeaconPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTBeaconPlus.h; path = MTBeaconPlus/MTBeaconPlus.h; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		77904270FFFB27CDA20F4547BBE56E2F /* MTBeaconPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTBeaconPlus.release.xcconfig; sourceTree = "<group>"; };
 		779109E5E7DAD356A0E1E90B198A101D /* Pods-MTBeaconPlus_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTBeaconPlus_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -325,6 +325,74 @@
 			path = MTBeaconPlus/Frameworks;
 			sourceTree = "<group>";
 		};
+		6AA6199B257A260100D94633 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6AA6199C257A260100D94633 /* MTConnectionFeature.h */,
+				6AA6199D257A260100D94633 /* MTOTAManager.h */,
+				6AA6199E257A260100D94633 /* MTCentralManager.h */,
+				6AA6199F257A260100D94633 /* MTPeripheral.h */,
+				6AA619A0257A260100D94633 /* MTPublicHeader.h */,
+			);
+			name = Core;
+			path = MTBeaconPlus/Core;
+			sourceTree = "<group>";
+		};
+		6AA619A1257A260100D94633 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				6AA619A2257A260100D94633 /* MTTriggerData.h */,
+				6AA619A3257A260100D94633 /* MTLineBeaconData.h */,
+				6AA619A4257A260100D94633 /* MTSensorHTData.h */,
+				6AA619A5257A260100D94633 /* MTSensorData.h */,
+				6AA619A6257A260100D94633 /* MTSensorPIRData.h */,
+			);
+			name = Datas;
+			path = MTBeaconPlus/Datas;
+			sourceTree = "<group>";
+		};
+		6AA619A7257A260100D94633 /* Frames */ = {
+			isa = PBXGroup;
+			children = (
+				6AA619A8257A260100D94633 /* MinewFrame.h */,
+				6AA619A9257A260100D94633 /* Sensors */,
+				6AA619B1257A260100D94633 /* MinewUID.h */,
+				6AA619B2257A260100D94633 /* MinewDeviceInfo.h */,
+				6AA619B3257A260100D94633 /* MinewURL.h */,
+				6AA619B4257A260100D94633 /* MinewTLM.h */,
+				6AA619B5257A260100D94633 /* MinewLineBeacon.h */,
+				6AA619B6257A260100D94633 /* MinewiBeacon.h */,
+			);
+			name = Frames;
+			path = MTBeaconPlus/Frames;
+			sourceTree = "<group>";
+		};
+		6AA619A9257A260100D94633 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				6AA619AA257A260100D94633 /* MinewPIRSensor.h */,
+				6AA619AB257A260100D94633 /* MinewAccSensor.h */,
+				6AA619AC257A260100D94633 /* MinewTVOCSensor.h */,
+				6AA619AD257A260100D94633 /* MinewLightSensor.h */,
+				6AA619AE257A260100D94633 /* MinewHTSensor.h */,
+				6AA619AF257A260100D94633 /* MinewSingleTempSensor.h */,
+				6AA619B0257A260100D94633 /* MinewForceSensor.h */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		6AA619B7257A260100D94633 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				6AA619B8257A260100D94633 /* MTFrameHandler.h */,
+				6AA619B9257A260200D94633 /* MTConnectionHandler.h */,
+				6AA619BA257A260200D94633 /* MTSensorHandler.h */,
+				6AA619BB257A260200D94633 /* MTSlotHandler.h */,
+			);
+			name = Handlers;
+			path = MTBeaconPlus/Handlers;
+			sourceTree = "<group>";
+		};
 		8C9C036384539FED569340505AE506DA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,35 +421,11 @@
 		97A7590C0B5F8CAB0551457CE33D12F8 /* MTBeaconPlus */ = {
 			isa = PBXGroup;
 			children = (
-				6A453FD0256B50D700EE8D02 /* MinewAccSensor.h */,
-				6A453FD3256B50D700EE8D02 /* MinewDeviceInfo.h */,
-				6A453FCA256B50D700EE8D02 /* MinewForceSensor.h */,
-				6A453FCE256B50D700EE8D02 /* MinewFrame.h */,
-				6A453FDD256B50D700EE8D02 /* MinewHTSensor.h */,
-				6A453FD4256B50D700EE8D02 /* MinewiBeacon.h */,
-				6A453FE1256B50D700EE8D02 /* MinewLightSensor.h */,
-				6A453FD1256B50D700EE8D02 /* MinewLineBeacon.h */,
-				6A453FC7256B50D600EE8D02 /* MinewPIRSensor.h */,
-				6A453FE2256B50D700EE8D02 /* MinewSingleTempSensor.h */,
-				6A453FC8256B50D600EE8D02 /* MinewTLM.h */,
-				6A453FD6256B50D700EE8D02 /* MinewTVOCSensor.h */,
-				6A453FDF256B50D700EE8D02 /* MinewUID.h */,
-				6A453FCC256B50D700EE8D02 /* MinewURL.h */,
-				6A453FD9256B50D700EE8D02 /* MTBeaconPlus.h */,
-				6A453FD2256B50D700EE8D02 /* MTCentralManager.h */,
-				6A453FD7256B50D700EE8D02 /* MTConnectionFeature.h */,
-				6A453FC9256B50D600EE8D02 /* MTConnectionHandler.h */,
-				6A453FCB256B50D700EE8D02 /* MTFrameHandler.h */,
-				6A453FDC256B50D700EE8D02 /* MTLineBeaconData.h */,
-				6A453FCD256B50D700EE8D02 /* MTOTAManager.h */,
-				6A453FCF256B50D700EE8D02 /* MTPeripheral.h */,
-				6A453FE0256B50D700EE8D02 /* MTPublicHeader.h */,
-				6A453FC6256B50D600EE8D02 /* MTSensorData.h */,
-				6A453FD8256B50D700EE8D02 /* MTSensorHandler.h */,
-				6A453FDE256B50D700EE8D02 /* MTSensorHTData.h */,
-				6A453FDA256B50D700EE8D02 /* MTSensorPIRData.h */,
-				6A453FD5256B50D700EE8D02 /* MTSlotHandler.h */,
-				6A453FDB256B50D700EE8D02 /* MTTriggerData.h */,
+				6AA619BC257A260200D94633 /* MTBeaconPlus.h */,
+				6AA6199B257A260100D94633 /* Core */,
+				6AA619A1257A260100D94633 /* Datas */,
+				6AA619A7257A260100D94633 /* Frames */,
+				6AA619B7257A260100D94633 /* Handlers */,
 				6A453FC3256B50CA00EE8D02 /* Frameworks */,
 				423090F4470FD3A2577CE289B65EDCD3 /* Pod */,
 				54A6F96ABD425B04762B15A86863F98C /* Support Files */,
@@ -492,36 +536,36 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A453FF6256B50D800EE8D02 /* MTBeaconPlus.h in Headers */,
-				6A453FF7256B50D800EE8D02 /* MTSensorPIRData.h in Headers */,
-				6A453FF5256B50D800EE8D02 /* MTSensorHandler.h in Headers */,
-				6A453FF0256B50D800EE8D02 /* MinewDeviceInfo.h in Headers */,
+				6AA619C4257A260200D94633 /* MTSensorHTData.h in Headers */,
+				6AA619C6257A260200D94633 /* MTSensorPIRData.h in Headers */,
+				6AA619D2257A260200D94633 /* MinewTLM.h in Headers */,
+				6AA619CA257A260200D94633 /* MinewTVOCSensor.h in Headers */,
+				6AA619BD257A260200D94633 /* MTConnectionFeature.h in Headers */,
+				6AA619CE257A260200D94633 /* MinewForceSensor.h in Headers */,
+				6AA619C8257A260200D94633 /* MinewPIRSensor.h in Headers */,
+				6AA619BF257A260200D94633 /* MTCentralManager.h in Headers */,
+				6AA619D7257A260200D94633 /* MTSensorHandler.h in Headers */,
+				6AA619D4257A260200D94633 /* MinewiBeacon.h in Headers */,
 				6FE3EC7C2C5D10FC3F099FEEE07C1478 /* MTBeaconPlus-umbrella.h in Headers */,
-				6A453FE5256B50D700EE8D02 /* MinewTLM.h in Headers */,
-				6A453FF8256B50D800EE8D02 /* MTTriggerData.h in Headers */,
-				6A453FE3256B50D700EE8D02 /* MTSensorData.h in Headers */,
-				6A453FF4256B50D800EE8D02 /* MTConnectionFeature.h in Headers */,
-				6A453FEC256B50D800EE8D02 /* MTPeripheral.h in Headers */,
-				6A453FF3256B50D800EE8D02 /* MinewTVOCSensor.h in Headers */,
-				6A453FF1256B50D800EE8D02 /* MinewiBeacon.h in Headers */,
-				6A453FE9256B50D700EE8D02 /* MinewURL.h in Headers */,
-				6A453FE8256B50D700EE8D02 /* MTFrameHandler.h in Headers */,
-				6A453FF2256B50D800EE8D02 /* MTSlotHandler.h in Headers */,
-				6A453FFA256B50D800EE8D02 /* MinewHTSensor.h in Headers */,
-				6A453FE6256B50D700EE8D02 /* MTConnectionHandler.h in Headers */,
-				6A453FFB256B50D800EE8D02 /* MTSensorHTData.h in Headers */,
-				6A453FEF256B50D800EE8D02 /* MTCentralManager.h in Headers */,
-				6A453FE4256B50D700EE8D02 /* MinewPIRSensor.h in Headers */,
-				6A453FEE256B50D800EE8D02 /* MinewLineBeacon.h in Headers */,
-				6A453FF9256B50D800EE8D02 /* MTLineBeaconData.h in Headers */,
-				6A453FEB256B50D800EE8D02 /* MinewFrame.h in Headers */,
-				6A453FFF256B50D800EE8D02 /* MinewSingleTempSensor.h in Headers */,
-				6A453FFD256B50D800EE8D02 /* MTPublicHeader.h in Headers */,
-				6A453FFC256B50D800EE8D02 /* MinewUID.h in Headers */,
-				6A453FFE256B50D800EE8D02 /* MinewLightSensor.h in Headers */,
-				6A453FE7256B50D700EE8D02 /* MinewForceSensor.h in Headers */,
-				6A453FEA256B50D800EE8D02 /* MTOTAManager.h in Headers */,
-				6A453FED256B50D800EE8D02 /* MinewAccSensor.h in Headers */,
+				6AA619C7257A260200D94633 /* MinewFrame.h in Headers */,
+				6AA619C9257A260200D94633 /* MinewAccSensor.h in Headers */,
+				6AA619D5257A260200D94633 /* MTFrameHandler.h in Headers */,
+				6AA619C3257A260200D94633 /* MTLineBeaconData.h in Headers */,
+				6AA619D9257A260200D94633 /* MTBeaconPlus.h in Headers */,
+				6AA619CB257A260200D94633 /* MinewLightSensor.h in Headers */,
+				6AA619CD257A260200D94633 /* MinewSingleTempSensor.h in Headers */,
+				6AA619CC257A260200D94633 /* MinewHTSensor.h in Headers */,
+				6AA619C5257A260200D94633 /* MTSensorData.h in Headers */,
+				6AA619D0257A260200D94633 /* MinewDeviceInfo.h in Headers */,
+				6AA619C0257A260200D94633 /* MTPeripheral.h in Headers */,
+				6AA619BE257A260200D94633 /* MTOTAManager.h in Headers */,
+				6AA619C2257A260200D94633 /* MTTriggerData.h in Headers */,
+				6AA619CF257A260200D94633 /* MinewUID.h in Headers */,
+				6AA619C1257A260200D94633 /* MTPublicHeader.h in Headers */,
+				6AA619D8257A260200D94633 /* MTSlotHandler.h in Headers */,
+				6AA619D1257A260200D94633 /* MinewURL.h in Headers */,
+				6AA619D3257A260200D94633 /* MinewLineBeacon.h in Headers */,
+				6AA619D6257A260200D94633 /* MTConnectionHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
