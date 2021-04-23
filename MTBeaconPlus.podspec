@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { 'rex.xie' => 'rex.xie@minewtech.com' }
   s.source           = { :git => 'https://github.com/minewdevelop/iOS_Pods_Minew_BeaconPlusSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  s.source_files = 'MTBeaconPlus/Classes/**/*'
+  s.source_files = 'MTBeaconPlus/Classes/*.{h,m}'
   s.vendored_frameworks = 'MTBeaconPlus/Frameworks/*.{framework}'
 #  s.dependency = 'iOSDFULibrary'
   s.static_framework = true
