@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  The SDK can help developers handle all the work between the mobile phone and the Bluetooth module, including: scanning the device, connecting the device, writing data to the device, receiving data from the device, etc.
                        DESC
 
   s.homepage         = 'https://github.com/minewdevelop/iOS_Pods_Minew_BeaconPlusSDK'
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'rex.xie' => 'rex.xie@minewtech.com' }
   s.source           = { :git => 'https://github.com/minewdevelop/iOS_Pods_Minew_BeaconPlusSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  s.source_files = 'MTBeaconPlus/Classes/**/*'
+  s.source_files = 'MTBeaconPlus/Classes/*.{h,m}'
   s.vendored_frameworks = 'MTBeaconPlus/Frameworks/*.{framework}'
 #  s.dependency = 'iOSDFULibrary'
   s.static_framework = true
