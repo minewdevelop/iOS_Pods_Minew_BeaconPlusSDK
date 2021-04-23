@@ -1,5 +1,5 @@
 //
-//  MinewSingleTempSensor.h
+//  MinewTempSensor.h
 //  MTBeaconPlus
 //
 //  Created by Minewtech on 2019/2/14.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MinewSingleTempSensor : MinewFrame
+@interface MinewTempSensor : MinewFrame
 
 // mac address
 @property (nonatomic, strong) NSString *mac;
@@ -23,9 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 // temperature history, maybe nil in connection stage.
 @property (nonatomic, strong, readonly) NSArray<NSNumber *> *temperatures;
-
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
 
 @end
 

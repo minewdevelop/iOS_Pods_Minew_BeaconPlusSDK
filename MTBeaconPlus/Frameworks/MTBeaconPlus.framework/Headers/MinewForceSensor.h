@@ -19,7 +19,5 @@
 //Force gramvalue
 @property (nonatomic, assign) NSInteger gramValue;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
 
 @end

@@ -24,6 +24,11 @@
 #import <MTBeaconPlus/MTSensorPIRData.h>
 #import <MTBeaconPlus/MTSensorHTData.h>
 #import <MTBeaconPlus/MTLineBeaconData.h>
+#import <MTBeaconPlus/MTSensorSixAxisData.h>
+#import <MTBeaconPlus/MTSensorMagnetometerData.h>
+#import <MTBeaconPlus/MTSensorAtmosphericPressureData.h>
+
+
 
 #import <MTBeaconPlus/MinewFrame.h>
 #import <MTBeaconPlus/MinewTLM.h>
@@ -37,5 +42,8 @@
 #import <MTBeaconPlus/MinewForceSensor.h>
 #import <MTBeaconPlus/MinewPIRSensor.h>
 #import <MTBeaconPlus/MinewTVOCSensor.h>
-#import <MTBeaconPlus/MinewSingleTempSensor.h>
+#import <MTBeaconPlus/MinewTempSensor.h>
 #import <MTBeaconPlus/MinewLineBeacon.h>
+#import <MTBeaconPlus/MinewSixAxisSensor.h>
+#import <MTBeaconPlus/MinewMagnetometerSensor.h>
+#import <MTBeaconPlus/MinewAtmosphericPressureSensor.h>

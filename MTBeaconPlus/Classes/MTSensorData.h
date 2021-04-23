@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface MTSensorData : NSObject
 
 @property (nonatomic, assign) BOOL status;

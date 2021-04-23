@@ -15,6 +15,8 @@ typedef NS_ENUM(NSUInteger, Version) {
     Version0_9_9,   // 0.9.9 remote shut down support.
     Version2_0_0,   // 2.0.0 Trigger support.
     Version2_2_60,   // 2.2.60  Trigger broadcast settings support.
+    Version2_3_12,   // 2.3.12  
+    Version2_4_01,   // 2.4.01  Add SixAxis/Magnetometer/AtmosphericPressure.
     VersionMax = 1000,
 };
 

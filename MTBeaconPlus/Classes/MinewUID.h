@@ -19,7 +19,4 @@
 // instanceid of device
 @property (nonatomic, strong) NSString *instanceId;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
-
 @end

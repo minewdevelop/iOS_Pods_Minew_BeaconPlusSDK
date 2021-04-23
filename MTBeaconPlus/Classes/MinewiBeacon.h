@@ -25,7 +25,4 @@
 // RSSI @1m
 @property (nonatomic, assign) NSInteger txPower;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
-
 @end

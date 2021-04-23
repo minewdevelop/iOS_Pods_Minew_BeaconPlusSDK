@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTBeaconPlus'
-  s.version          = '1.0.0'
-  s.summary          = 'A short description of MTBeaconPlus.'
+  s.version          = '1.0.1'
+  s.summary          = 'This set of SDK only supports Bluetooth module devices produced by Shenzhen Yunliwuli Technology Co., Ltd.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

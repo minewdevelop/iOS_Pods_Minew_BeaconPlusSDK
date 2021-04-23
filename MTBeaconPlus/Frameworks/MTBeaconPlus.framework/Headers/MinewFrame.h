@@ -29,4 +29,7 @@
 // check two frame is the same or not
 - (BOOL)isSameFrame:(MinewFrame *)frame;
 
+// date of last updated.
+@property (nonatomic, strong) NSDate *lastUpdate;
+
 @end

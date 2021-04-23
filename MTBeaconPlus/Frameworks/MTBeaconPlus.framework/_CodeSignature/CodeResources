@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		JbRNkiiFbILzdayUE5RN6BNwmxg=
+		</data>
 		<key>Headers/MTBeaconPlus.h</key>
 		<data>
-		LCKHE8WT2A+QpRZNMOfvMOFGhFU=
+		sm7eW4eOnzWJ1A5yfvHiESRtgYk=
 		</data>
 		<key>Headers/MTCentralManager.h</key>
 		<data>
@@ -18,7 +22,7 @@
 		</data>
 		<key>Headers/MTConnectionHandler.h</key>
 		<data>
-		8Mf4tha5aDH3IHlZt7LwRnSgTXk=
+		JmIOKAuc+Z37uCdO39+heqjv0eM=
 		</data>
 		<key>Headers/MTFrameHandler.h</key>
 		<data>
@@ -38,11 +42,15 @@
 		</data>
 		<key>Headers/MTPublicHeader.h</key>
 		<data>
-		Zr/22w7ihpGrxMBCRYdt8y6+eds=
+		ptFvSFp19PTFKgEasnAuyx1I9LU=
+		</data>
+		<key>Headers/MTSensorAtmosphericPressureData.h</key>
+		<data>
+		32PM4rBkEkrBElqWH1hLnQZ4uDY=
 		</data>
 		<key>Headers/MTSensorData.h</key>
 		<data>
-		0pSRkJ658AfRJoeZ5BVlGUZjV7M=
+		RKZdZaIANcWFn/yudduM4FKtMro=
 		</data>
 		<key>Headers/MTSensorHTData.h</key>
 		<data>
@@ -50,11 +58,19 @@
 		</data>
 		<key>Headers/MTSensorHandler.h</key>
 		<data>
-		j2Y8gmDCA09CBjdWkBpjHtj2aAc=
+		bsXD+fk6EqmvfAAbf4ARLQW9PPA=
+		</data>
+		<key>Headers/MTSensorMagnetometerData.h</key>
+		<data>
+		POAszOCjBFRfZEcixCmuXoFO0tU=
 		</data>
 		<key>Headers/MTSensorPIRData.h</key>
 		<data>
 		KfRsfspgoRQXq3LncdJQmkDseV8=
+		</data>
+		<key>Headers/MTSensorSixAxisData.h</key>
+		<data>
+		moF6BxoZM6eSvMGITJsNuTSHRTU=
 		</data>
 		<key>Headers/MTSlotHandler.h</key>
 		<data>
@@ -66,63 +82,75 @@
 		</data>
 		<key>Headers/MinewAccSensor.h</key>
 		<data>
-		j6kW9cOJUjcnzlYq3mYcML21mRU=
+		nFVolhCXULqVGHNX7tXqyOWfgMw=
+		</data>
+		<key>Headers/MinewAtmosphericPressureSensor.h</key>
+		<data>
+		02W4zZZEboETqDYMDoAyybFtio8=
 		</data>
 		<key>Headers/MinewDeviceInfo.h</key>
 		<data>
-		qjaopEJ2HzA/rA5U4JQ5ix3flug=
+		dqdrvgIkF/BMw6e4uItQFwJH2cY=
 		</data>
 		<key>Headers/MinewForceSensor.h</key>
 		<data>
-		K+LQjxHZVI4UzXUbsa1Xqlj5mpQ=
+		KQ7Zgyr4dgzcksFIcpuWKh21mpY=
 		</data>
 		<key>Headers/MinewFrame.h</key>
 		<data>
-		WkGTeGqlBc+Y4zzjcNAsFUH60qM=
+		Rx6ZrM7Xqg7clM6vRsEV7159Wc8=
 		</data>
 		<key>Headers/MinewHTSensor.h</key>
 		<data>
-		Wo/zpNvyefao4AM5yCiRHA//Vjk=
+		O9o4i7zFcrTTQP32kgDBhtepJ4Q=
 		</data>
 		<key>Headers/MinewLightSensor.h</key>
 		<data>
-		YxOltZS1SYgYzO2be20V/uahckc=
+		G/XjfNPdFmxGYI3Xw3W+ubPXscc=
 		</data>
 		<key>Headers/MinewLineBeacon.h</key>
 		<data>
-		YltWRLekTThh046ggpi7njKhh80=
+		cQvFpR7h9S2ZZLOeuYdVRfvwumY=
+		</data>
+		<key>Headers/MinewMagnetometerSensor.h</key>
+		<data>
+		6KtVlkFXx5EiFCGHsTSNsyJ+ujU=
 		</data>
 		<key>Headers/MinewPIRSensor.h</key>
 		<data>
-		WBRfkhM76dKfgDPJRi0NK5Drc0Y=
+		GZXAMVMZwB40Cdg8MFH3JSAIZ+k=
 		</data>
-		<key>Headers/MinewSingleTempSensor.h</key>
+		<key>Headers/MinewSixAxisSensor.h</key>
 		<data>
-		q0APK87sFbWn8bWTd3GYe+pwIKg=
+		KGdA5PCEvMctiPstnbAwBjybYWg=
 		</data>
 		<key>Headers/MinewTLM.h</key>
 		<data>
-		7G8bBjNjNZ3bnxMnMcsCgbiCGYo=
+		L6Vb/sxFwJy/xr1dQhv9sCv0f04=
 		</data>
 		<key>Headers/MinewTVOCSensor.h</key>
 		<data>
-		OOlWIFxa3UBJD6U7QvyuWNaUWOk=
+		pWjv1C9IyAZxAxHfRV8iWGG04xs=
+		</data>
+		<key>Headers/MinewTempSensor.h</key>
+		<data>
+		RcP+SHxE5RDCKLczYvhIfn6voVQ=
 		</data>
 		<key>Headers/MinewUID.h</key>
 		<data>
-		tSK9ZIetiRI47qalJNKyJSnl+28=
+		Kemd20CCJt46nzbiu7unPsv/JOE=
 		</data>
 		<key>Headers/MinewURL.h</key>
 		<data>
-		/5uYhmywLpj3OGSfVwS8Fzu9iUk=
+		AlLfKYO4w6fsDkTrDn32R2Oqey4=
 		</data>
 		<key>Headers/MinewiBeacon.h</key>
 		<data>
-		EMDMSPuygjXPhLoQmBPAU1Z4TPA=
+		PdurAvyBniTX0BTI/0K09wOP7dk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6JpONjiEJGJGkK1GF+WFRwox/IM=
+		15o9t2RuCBBQtouL/Zf5/eK2giY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -135,11 +163,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LCKHE8WT2A+QpRZNMOfvMOFGhFU=
+			sm7eW4eOnzWJ1A5yfvHiESRtgYk=
 			</data>
 			<key>hash2</key>
 			<data>
-			JDreU9ibco0eoGNVrMtbP0eJH6UDHiCOOveKE4DLIzw=
+			QQ5hhJU/nHFZPnSLtQniC24Vi8P5hR55NaH42Uws7Cg=
 			</data>
 		</dict>
 		<key>Headers/MTCentralManager.h</key>
@@ -168,11 +196,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8Mf4tha5aDH3IHlZt7LwRnSgTXk=
+			JmIOKAuc+Z37uCdO39+heqjv0eM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nt/h5AP0xWfJ0ageV879w8PnoPRKDRmMivVYMnFbRVw=
+			Pwe5RbiB52FZXYD8gCgPxK7FiMzuJkH2vRUhWeScfHA=
 			</data>
 		</dict>
 		<key>Headers/MTFrameHandler.h</key>
@@ -223,22 +251,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zr/22w7ihpGrxMBCRYdt8y6+eds=
+			ptFvSFp19PTFKgEasnAuyx1I9LU=
 			</data>
 			<key>hash2</key>
 			<data>
-			oSxOVbiX3l/9ySor4T5kfpZprlVekx5fi9ZG2UpZN88=
+			jn+k79d3AzQ8vbnlUHLsLeS7Nl4ib+qHUXeWowRQ5hk=
+			</data>
+		</dict>
+		<key>Headers/MTSensorAtmosphericPressureData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			32PM4rBkEkrBElqWH1hLnQZ4uDY=
+			</data>
+			<key>hash2</key>
+			<data>
+			N9LgNvOvcfLGjyauAG3oeiJvgp3dnSeWEn6DL5+pl74=
 			</data>
 		</dict>
 		<key>Headers/MTSensorData.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0pSRkJ658AfRJoeZ5BVlGUZjV7M=
+			RKZdZaIANcWFn/yudduM4FKtMro=
 			</data>
 			<key>hash2</key>
 			<data>
-			FMxTAh+sYC3NFsta4gu5VI66+sevv+BIzTDs96lpM+8=
+			0/6rXZshovb4ujzFo2wR8biSG6ZjsdDT6P/+M8sNJJg=
 			</data>
 		</dict>
 		<key>Headers/MTSensorHTData.h</key>
@@ -256,11 +295,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j2Y8gmDCA09CBjdWkBpjHtj2aAc=
+			bsXD+fk6EqmvfAAbf4ARLQW9PPA=
 			</data>
 			<key>hash2</key>
 			<data>
-			WNj2rzMxfBvMsekSKK8S1Ro5NXQyo6krBKp1Gd15ZZQ=
+			JWmiIto/9xZ2X5XAAImTHy2xCTzIYyp21L0Ujf+xO/I=
+			</data>
+		</dict>
+		<key>Headers/MTSensorMagnetometerData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			POAszOCjBFRfZEcixCmuXoFO0tU=
+			</data>
+			<key>hash2</key>
+			<data>
+			3FVLjpL0t3sVc7U6rC+AHakgv4qtzy6XDaCQ2sFJ+JM=
 			</data>
 		</dict>
 		<key>Headers/MTSensorPIRData.h</key>
@@ -272,6 +322,17 @@
 			<key>hash2</key>
 			<data>
 			Yc2pYWZsFLk5oZhc6dHaZILxjbU5cR2U8ZJ5xFb+5xY=
+			</data>
+		</dict>
+		<key>Headers/MTSensorSixAxisData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			moF6BxoZM6eSvMGITJsNuTSHRTU=
+			</data>
+			<key>hash2</key>
+			<data>
+			X6vxGc+Tqo7WdrZuQ3ibWjuviV4CG+biybwE5DwJLW0=
 			</data>
 		</dict>
 		<key>Headers/MTSlotHandler.h</key>
@@ -300,154 +361,187 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j6kW9cOJUjcnzlYq3mYcML21mRU=
+			nFVolhCXULqVGHNX7tXqyOWfgMw=
 			</data>
 			<key>hash2</key>
 			<data>
-			v/19+424ioq25SaCgbIF4ukKaAAPl5sAbq27lSeZZ48=
+			7RzI8HrvvsmpvSsPq9xaCykbjvVTL/G/VA6IQljnLE8=
+			</data>
+		</dict>
+		<key>Headers/MinewAtmosphericPressureSensor.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			02W4zZZEboETqDYMDoAyybFtio8=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qj7SOlaugZSoUp9TF/6UkFhjBQDCiB/O1HafyUqatIU=
 			</data>
 		</dict>
 		<key>Headers/MinewDeviceInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qjaopEJ2HzA/rA5U4JQ5ix3flug=
+			dqdrvgIkF/BMw6e4uItQFwJH2cY=
 			</data>
 			<key>hash2</key>
 			<data>
-			G9uRYszzly9NHDxlQWnInL/gASqZcXPi8igjXal/PTs=
+			sWxKo8s4QL9sHIGVqcOOruaU6k7wfRYIyrlbJXxS1LM=
 			</data>
 		</dict>
 		<key>Headers/MinewForceSensor.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K+LQjxHZVI4UzXUbsa1Xqlj5mpQ=
+			KQ7Zgyr4dgzcksFIcpuWKh21mpY=
 			</data>
 			<key>hash2</key>
 			<data>
-			xTDOQeVV0xn/zA6HuMYzNhQxvvqb+ys6suiogA9OXuE=
+			zF6ns/6llFKALtci54EJba2GWSCWo9Al878/g07Nnz0=
 			</data>
 		</dict>
 		<key>Headers/MinewFrame.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WkGTeGqlBc+Y4zzjcNAsFUH60qM=
+			Rx6ZrM7Xqg7clM6vRsEV7159Wc8=
 			</data>
 			<key>hash2</key>
 			<data>
-			O+FTIBIOMmPCLG6Z7ovsZ26RIAsOAvaFONLH6fsfjsM=
+			Gda4OO0rSfYZkk24TE2/MrbfTEGU6Gc+Q0+2iTQov1U=
 			</data>
 		</dict>
 		<key>Headers/MinewHTSensor.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wo/zpNvyefao4AM5yCiRHA//Vjk=
+			O9o4i7zFcrTTQP32kgDBhtepJ4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			McPOrMsm5skeQbka75nInWYCphsFodESMy6pOyquFUo=
+			93cXukL92ehnh1f1tnwlCzo2954kLhuIy0XDFbzhVsc=
 			</data>
 		</dict>
 		<key>Headers/MinewLightSensor.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YxOltZS1SYgYzO2be20V/uahckc=
+			G/XjfNPdFmxGYI3Xw3W+ubPXscc=
 			</data>
 			<key>hash2</key>
 			<data>
-			aQAvzriT74LlCXFMrUs9VI1bv6lUV5ckysRd9CYUo7A=
+			hQO4MHINp1wODJ+vezYGnXkJBIu66GQ9nAhB21wvDMM=
 			</data>
 		</dict>
 		<key>Headers/MinewLineBeacon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YltWRLekTThh046ggpi7njKhh80=
+			cQvFpR7h9S2ZZLOeuYdVRfvwumY=
 			</data>
 			<key>hash2</key>
 			<data>
-			eDD5kNv5t+emqwyc1+dZEXn7JvTB5R/V9ohZGsM6gKk=
+			N3bJiDH4+RFZ1rJB7vRYxN9HBHymvw3Zxc6vwwNKygY=
+			</data>
+		</dict>
+		<key>Headers/MinewMagnetometerSensor.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6KtVlkFXx5EiFCGHsTSNsyJ+ujU=
+			</data>
+			<key>hash2</key>
+			<data>
+			BBF/5icHvMeRrq25WrRtIfqjvuDKxSA0WBE3StFxwAc=
 			</data>
 		</dict>
 		<key>Headers/MinewPIRSensor.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WBRfkhM76dKfgDPJRi0NK5Drc0Y=
+			GZXAMVMZwB40Cdg8MFH3JSAIZ+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			OKkjTMr4KbtB7UyYD4mds5WSVzTNXnBxmA+dPuqqsUU=
+			vHorjm7ePmNhO2tJmq1sW9NU5CfaJllByrLJZzDrx4Q=
 			</data>
 		</dict>
-		<key>Headers/MinewSingleTempSensor.h</key>
+		<key>Headers/MinewSixAxisSensor.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q0APK87sFbWn8bWTd3GYe+pwIKg=
+			KGdA5PCEvMctiPstnbAwBjybYWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			/ZiwMtbyNpyWiHiu8/EJtnwa6zfQ36ZXPAqtDhZO2M4=
+			OYdeY8/qjCjj3zMRCc12Ni55bA8szdwGxF3k+CbULvQ=
 			</data>
 		</dict>
 		<key>Headers/MinewTLM.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7G8bBjNjNZ3bnxMnMcsCgbiCGYo=
+			L6Vb/sxFwJy/xr1dQhv9sCv0f04=
 			</data>
 			<key>hash2</key>
 			<data>
-			2s2uoqb+fnwEBEHHFK/sHaai9yVvMuLPFnsYUuMkT44=
+			BYwb5vCDA0kpj1RMevTsm45lY7t/4RLzkuialVz95Xo=
 			</data>
 		</dict>
 		<key>Headers/MinewTVOCSensor.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OOlWIFxa3UBJD6U7QvyuWNaUWOk=
+			pWjv1C9IyAZxAxHfRV8iWGG04xs=
 			</data>
 			<key>hash2</key>
 			<data>
-			8SZu4RQs8yE9OmzhbkjyOv+lSkpEqz1xGu8a484mg7Q=
+			dW9YEeTxkeYC+NLgp7CHgbJ23/h67ob1UPMzB8p1LtM=
+			</data>
+		</dict>
+		<key>Headers/MinewTempSensor.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RcP+SHxE5RDCKLczYvhIfn6voVQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			+M5kCttk/1bAoaugDzmPzqIAA/W/TVi/jEip5fo33Bg=
 			</data>
 		</dict>
 		<key>Headers/MinewUID.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tSK9ZIetiRI47qalJNKyJSnl+28=
+			Kemd20CCJt46nzbiu7unPsv/JOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZboYWEFFbWK6ySWANl0dYI8E6l+XYTJxAQpdH5sOgUs=
+			igKIhKsWnNVWJNDdgO9EW9OL3SMc+WWFu063IQxe+SI=
 			</data>
 		</dict>
 		<key>Headers/MinewURL.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/5uYhmywLpj3OGSfVwS8Fzu9iUk=
+			AlLfKYO4w6fsDkTrDn32R2Oqey4=
 			</data>
 			<key>hash2</key>
 			<data>
-			GNyQ+OMO1zSgof55t4x6mfzcU8Vhfg5OyO1Mk3gzNwo=
+			2GHZj+b8j9jIUbGiFjopnvgCMA9ag4IGB4gbFPz+drk=
 			</data>
 		</dict>
 		<key>Headers/MinewiBeacon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EMDMSPuygjXPhLoQmBPAU1Z4TPA=
+			PdurAvyBniTX0BTI/0K09wOP7dk=
 			</data>
 			<key>hash2</key>
 			<data>
-			/5mmcQv3Z01FlfLD+0bI316NTN5bLOKdmE7liPZVtDM=
+			PTIHOoLg8r2u+AEB7tA0X6iIejYVkNw8h8+zFVHnvOg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
