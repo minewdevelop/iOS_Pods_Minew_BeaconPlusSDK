@@ -26,9 +26,6 @@ NS_ASSUME_NONNULL_BEGIN
 // RSSI @1m
 @property (nonatomic, assign) NSInteger txPower;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
-
 @end
 
 NS_ASSUME_NONNULL_END

@@ -19,7 +19,5 @@
 // mac address
 @property (nonatomic, strong, readonly) NSString *mac;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
 
 @end

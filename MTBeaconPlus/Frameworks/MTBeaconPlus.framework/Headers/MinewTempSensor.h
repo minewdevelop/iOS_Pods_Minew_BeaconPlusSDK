@@ -1,5 +1,5 @@
 //
-//  MinewTVOCSensor.h
+//  MinewTempSensor.h
 //  MTBeaconPlus
 //
 //  Created by Minewtech on 2019/2/14.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MinewTVOCSensor : MinewFrame
+@interface MinewTempSensor : MinewFrame
 
 // mac address
 @property (nonatomic, strong) NSString *mac;
@@ -18,8 +18,11 @@ NS_ASSUME_NONNULL_BEGIN
 // battery
 @property (nonatomic, assign) NSInteger battery;
 
-//TVOC value
-@property (nonatomic, assign) NSInteger value;
+// temperature
+@property (nonatomic, assign, readonly) double temperature;
+
+// temperature history, maybe nil in connection stage.
+@property (nonatomic, strong, readonly) NSArray<NSNumber *> *temperatures;
 
 @end
 

@@ -18,8 +18,5 @@
 // device battery
 @property (nonatomic, assign, readonly) NSInteger battery;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
-
 
 @end

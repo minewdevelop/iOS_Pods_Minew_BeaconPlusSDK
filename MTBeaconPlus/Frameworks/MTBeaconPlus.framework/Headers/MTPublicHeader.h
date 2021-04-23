@@ -22,8 +22,11 @@ typedef NS_ENUM(NSInteger, FrameType) {
     FrameForceSensor,
     FramePIRSensor,
     FrameTVOCSensor,
-    FrameSingleTempSensor,
+    FrameTempSensor,
     FrameLineBeacon,
+    FrameSixAxisSensor, // 六轴传感器
+    FrameMagnetometerSensor, // 磁力计传感器
+    FrameAtmosphericPressureSensor, // 大气压力传感器数据
 
     //staticFrame
     FrameUID = 100,
@@ -61,8 +64,8 @@ static NSString *FrameTypeString(FrameType type) {
             return @"FramePIRSensor";
         case FrameTVOCSensor:
             return @"FrameTVOCSensor";
-        case FrameSingleTempSensor:
-            return @"FrameSingleTempSensor";
+        case FrameTempSensor:
+            return @"FrameTempSensor";
         case FrameLineBeacon:
             return @"FrameLineBeacon";
         case FrameUID:

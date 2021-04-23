@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTBeaconPlus'
-  s.version          = '1.0.0'
-  s.summary          = 'A short description of MTBeaconPlus.'
+  s.version          = '1.0.1'
+  s.summary          = 'This set of SDK only supports Bluetooth module devices produced by Shenzhen Yunliwuli Technology Co., Ltd.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  The SDK can help developers handle all the work between the mobile phone and the Bluetooth module, including: scanning the device, connecting the device, writing data to the device, receiving data from the device, etc.
                        DESC
 
   s.homepage         = 'https://github.com/minewdevelop/iOS_Pods_Minew_BeaconPlusSDK'

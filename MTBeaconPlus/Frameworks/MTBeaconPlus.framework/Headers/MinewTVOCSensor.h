@@ -21,9 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 //TVOC value
 @property (nonatomic, assign) NSInteger value;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
-
 @end
 
 NS_ASSUME_NONNULL_END

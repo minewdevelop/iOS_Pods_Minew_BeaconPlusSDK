@@ -27,7 +27,4 @@
 // humidity history, maybe nil in connection stage.
 @property (nonatomic, strong, readonly) NSArray<NSNumber *> *humiditys;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
-
 @end

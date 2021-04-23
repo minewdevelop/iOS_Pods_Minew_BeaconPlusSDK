@@ -22,7 +22,4 @@
 // count of second after poweron
 @property (nonatomic, assign, readonly) NSInteger secCount;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
-
 @end

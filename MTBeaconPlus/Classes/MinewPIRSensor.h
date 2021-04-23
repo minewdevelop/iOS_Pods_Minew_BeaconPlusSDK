@@ -19,7 +19,4 @@
 //PIR value
 @property (nonatomic, assign) NSInteger value;
 
-// date of last updated.
-@property (nonatomic, strong, readonly) NSDate *lastUpdate;
-
 @end
